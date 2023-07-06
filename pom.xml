@@ -4,11 +4,11 @@
 	<artifactId>JulyDevOpsTraining</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JulyDevOpsTraining</name>
-<!-- 	<properties>
-		<project.build.SourceEncoding></project.build.SourceEncoding>
+ 	<properties>
+	<!-- 	<project.build.SourceEncoding></project.build.SourceEncoding> -->
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-	</properties> -->
+	</properties> 
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -16,10 +16,10 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.10.0</version>
-<!-- 					<configuration>
+					<configuration>
 						<source>${maven.compiler.source}</source>
 						<target>${maven.compiler.targer}</target>
-					</configuration> -->
+					</configuration> 
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
